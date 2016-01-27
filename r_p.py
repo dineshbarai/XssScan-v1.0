@@ -1,6 +1,7 @@
 import re
 from re import sub,search,match
 import os, inspect
+import sys
 
 class f_p:
     global CRLF
@@ -28,11 +29,13 @@ class f_p:
             sp = hrs[count].split(':',1)	
             h_t[sp[0]] = sp[1]
         method = f_l.split(' ',1)[0]
-        if h_t['Host']:
-            url = h_t['Host'].lstrip()+f_l.split()[1].lstrip()
-        elif h_t['host']:
-            url = h_t['host'].lstrip()+f_l.split()[1].lstrip()
-        
+        if 'Host' in h_t:
+            url = h_t['Host'].lstrip().rstrip()+f_l.split()[1].lstrip()
+        elif 'host' in h_t:
+            url = h_t['host'].lstrip().rstrip()+f_l.split()[1].lstrip()
+        else:
+            print "Host header not found in http request file\nExiting..."
+            sys.exit(0)
         mode = mode.lower()
         if mode == 'http':
             url = 'http://'+ url

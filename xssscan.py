@@ -32,14 +32,29 @@ signal.signal(signal.SIGINT,signal_handler)
 
 CRLF = '\r\n\r\n'
 path = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
-req_file = open(path+'/'+options.request,'r')
+try:
+    req_file = open(path+'/'+options.request,'r')
+except IOError:
+    print "Cannot read the request file '%s'." %(options.request)
+    print "Exiting..."
+    sys.exit(0)
 postdata = req_file.read()
 ref_file = open(path+'/'+'reflected.txt','w')
 ref_file.close()
-scr_file = open(path+'/'+'script.txt','r')
+try:
+    scr_file = open(path+'/'+'script.txt','r')
+except IOError:
+    print "Cannot read the script file script.txt"
+    print "Exiting..."
+    sys.exit(0)
 counter = scr_file.read()
-resp_file = open(path+'/'+'response.txt','r') 
-scr_file.seek(0	)
+try:
+    resp_file = open(path+'/'+'response.txt','r') 
+except IOError:
+    print "Cannot read the file response.txt"
+    print "Exiting..."
+    sys.exit(0)
+scr_file.seek(0)
 count = counter.count('\n')
 cr = 0
 dr = 0

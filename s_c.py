@@ -1,9 +1,15 @@
 import os,inspect,re
 import urllib
+import sys
 
 path = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 global scr_file
-scr_file = open(path+'/'+'script.txt','r')
+try:
+    scr_file = open(path+'/'+'script.txt','r')
+except IOError:
+    print "Cannot read the script file script.txt"
+    print "Exiting..."
+    sys.exit(0)
 regex = r'((?<=\?)|(?<=&)|(?<=\r\n\r\n)|(?<=\n\n)).*?=.*?((?=&)|(?=\s)|(?=$))'
 global comp
 comp = re.compile(regex,re.I|re.M)
