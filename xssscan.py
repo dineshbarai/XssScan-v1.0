@@ -16,6 +16,8 @@ import signal
 
 options = onh()
 
+print "Disclaimer: Usage of XssScan tool for testing targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program\n"
+
 def signal_handler(signal, frame):    
     print "\n---------------------------------------------------------------\nScanning interrupted"
     print "Scan result observed till now is stored in reflected.txt file\n"
